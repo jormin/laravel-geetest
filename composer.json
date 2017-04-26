@@ -1,5 +1,5 @@
 {
-    "name": "laravel-geetest",
+    "name": "jormin/laravel-geetest",
     "type": "library",
     "description": "极验验证码 v3.0 Laravel 扩展包",
     "keywords": [
