@@ -62,7 +62,7 @@ $this->validate($request, [
 
 ## 参考图
 
-![](https://qiniu.blog.lerzen.com/de986690-2a0c-11e7-b8e1-8dd90192479b.jpg)
+![](https://qiniu.blog.lerzen.com/c7086810-2a14-11e7-a419-ed2a045e33b4.jpg)
 
 ## 参考项目
 
