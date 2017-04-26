@@ -1,12 +1,13 @@
 {
-    "name": "Jormin/Geetest",
+    "name": "laravel-geetest",
     "type": "library",
     "description": "极验验证码 v3.0 Laravel 扩展包",
     "keywords": [
         "Jormin",
-        "Geetest"
+        "Geetest",
+        "Laravel"
     ],
-    "homepage": "https://github.com/Jormin/Geetest",
+    "homepage": "https://github.com/jormin/laravel-geetest",
     "license": "MIT",
     "authors": [
         {
