@@ -16,13 +16,19 @@
 	Jormin\Geetest\GeetestServiceProvider::class,
 	```
 
-2. 创建配置文件、视图级资源文件：
+2. 添加 Alias
+
+     ```php
+     'Geetest' => Jormin\Geetest\Facades\Geetest::class,
+     ```
+
+3. 创建配置文件、视图级资源文件：
 
 	```shell
 	php artisan vendor:publish --provider='Jormin\Geetest\GeetestServiceProvider'
 	```
 	
-3. `.env` 文件增加配置项 `GEETEST_ID` 和 `GEETEST_KEY`
+4. `.env` 文件增加配置项 `GEETEST_ID` 和 `GEETEST_KEY`
 
 ## 配置项
 
