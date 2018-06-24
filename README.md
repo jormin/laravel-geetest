@@ -10,6 +10,8 @@
 
 ## 配置
 
+#### 如果 `Laravel` 版本大于等于 `5.5`， 可以直接跳过前两步，`Laravel` 会自动发现扩展包
+
 1. 注册 ServiceProvider:
 	
 	```php
