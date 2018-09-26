@@ -1,10 +1,7 @@
 <div id="embed-captcha"></div>
 <p id="wait" class="show">正在加载验证码......</p>
 <p id="notice" class="hide">{{ config('laravel-geetest.client_fail_alert') }}</p>
-<style>
-    .hide{display:none;}
-    .show{display:block;}
-</style>
+<link rel="stylesheet" href="/vendor/laravel-geetest/style.css">
 <script src="/vendor/laravel-geetest/jquery.min.js"></script>
 <script src="/vendor/laravel-geetest/gt.js"></script>
 <script>
