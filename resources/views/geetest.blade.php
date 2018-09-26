@@ -1,6 +1,6 @@
 <div id="embed-captcha"></div>
-<p id="wait" class="show">正在加载验证码......</p>
-<p id="notice" class="hide">{{ config('laravel-geetest.client_fail_alert') }}</p>
+<p id="wait" class="gt-show">正在加载验证码......</p>
+<p id="notice" class="gt-hide">{{ config('laravel-geetest.client_fail_alert') }}</p>
 <link rel="stylesheet" href="/vendor/laravel-geetest/style.css">
 <script src="/vendor/laravel-geetest/jquery.min.js"></script>
 <script src="/vendor/laravel-geetest/gt.js"></script>
@@ -9,9 +9,9 @@
         $("#embed-submit").click(function (e) {
             var validate = captchaObj.getValidate();
             if (!validate) {
-                $("#notice")[0].className = "show";
+                $("#notice")[0].className = "gt-show";
                 setTimeout(function () {
-                    $("#notice")[0].className = "hide";
+                    $("#notice")[0].className = "gt-hide";
                 }, 2000);
                 e.preventDefault();
             }
@@ -19,7 +19,7 @@
         // 将验证码加到id为captcha的元素里，同时会有三个input的值：geetest_challenge, geetest_validate, geetest_seccode
         captchaObj.appendTo("#embed-captcha");
         captchaObj.onReady(function () {
-            $("#wait")[0].className = "hide";
+            $("#wait")[0].className = "gt-hide";
         });
         // 更多接口参考：http://www.geetest.com/install/sections/idx-client-sdk.html
     };
